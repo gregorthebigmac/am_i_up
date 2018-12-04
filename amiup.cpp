@@ -8,6 +8,8 @@ using std::string;
 string get_ping_or_curl();
 string get_known_host();
 
+command cmd;
+
 int main() {
 	string ping_or_curl = get_ping_or_curl();
 	string known_host;
